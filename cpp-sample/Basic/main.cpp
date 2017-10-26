@@ -7,4 +7,5 @@ int main()
 	declare();
 	operators();
 	statement();
+	functions();
 }
