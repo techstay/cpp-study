@@ -44,6 +44,20 @@ void pointerToFuntion()
 	f1 = nullptr;
 }
 
+// 返回数组指针的函数
+int (* get_array_pointer1())[5]
+{
+	int a[5]{1,2,3};
+	return &a;
+}
+
+// 用尾置返回类型简化函数声明
+auto get_array_pointer2() -> int(*)[5]
+{
+	int a[5]{1,2,3};
+	return &a;
+}
+
 //递归函数
 int gcd(int a, int b)
 {
