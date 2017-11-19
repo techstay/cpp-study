@@ -3,7 +3,7 @@ using namespace std;
 
 void console_io()
 {
-	cout << "INput your name:" << endl;
+	cout << "INput your val:" << endl;
 	string name;
 	cin >> name;
 	cout << "Hello, " << name << "\n" << flush;
