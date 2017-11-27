@@ -75,7 +75,7 @@ struct Contact
 	}
 };
 
-void oop_show_case()
+void classes()
 {
 	Person p1;
 	Person p2(5, "yitian");

@@ -144,14 +144,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="copy_controll.h" />
+    <ClInclude Include="oop.h" />
     <ClInclude Include="operator_overloading.h" />
-    <ClInclude Include="sample.h" />
+    <ClInclude Include="class.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="copy_controll.cpp" />
-    <ClCompile Include="OOP.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="oop.cpp" />
     <ClCompile Include="operator_overloading.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

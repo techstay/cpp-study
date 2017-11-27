@@ -21,13 +21,16 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="sample.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="copy_controll.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="operator_overloading.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oop.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,13 +38,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="OOP.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="copy_controll.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="operator_overloading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oop.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
